@@ -13,9 +13,8 @@
         <div class="logo-content">
             <img src="logo.png" width="15%"
             <div>
-                <span class="emp-text">EMPLOYEE</span>
-                <br>
-                <span class="emp-text emp-payroll">PAYROLL</span>
+            <span class="emp-text">EMPLOYEE</span><br>
+            <span class="emp-text emp-payroll">PAYROLL</span>
             </div>
         </div>
     </header>
@@ -27,7 +26,38 @@
                 Employee Details <div class="emp-count">10</div>
         </div>
         <a href="../HTML/EmployeeNewPayRoll.html" class="add-button"> 
-        <img src="" alt="">Add User</a>
+         Add User</a>
     </div> 
+    </div>
+         <!--uc3-->
+         <table id="display" class="table">
+            <tr>
+                <th></th>
+                <th>Name</th>
+                <th>Gender</th>
+                <th>Department</th>
+                <th>Salary</th>
+                <th>StartDate</th>
+                <th>Actions</th>
+            </tr>
+            <tr>
+                <td><img class="profile" alt="" 
+                    src="img1.jpg">
+                 </td>
+                 <td>Siddhant</td>
+                 <td>Male</td>
+                 <td><div class='dept-label'>HR</div>
+                    <div class='dept-label'>Finance</div>
+                 </td>
+                 <td>400000</td>
+                 <td>01 January 2021</td>
+                 <td>
+                 <button id="1" onclick="remove(this)">Remove</button> 
+                <button id="1" onclick="update(this)">Edit</button> 
+                     
+                </td> 
+            </tr>
+        </table>
+
     </body>
     </html>
